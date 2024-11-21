@@ -40,7 +40,6 @@ This repository provides a simple Flask-based web application to classify images
    ```bash
     pip install kagglehub
    ```
----
 <br>
 
 
@@ -96,7 +95,6 @@ Contributions to this project are welcome! Follow the steps below to contribute:
 
 6.  **Submit a Pull Request** on the original repository.
 
----
 <br>
 
 🛠️ Troubleshooting
@@ -121,7 +119,6 @@ Contributions to this project are welcome! Follow the steps below to contribute:
         ```bash
         pip install kagglehub
         ```
----
 <br>
 
 🚀 Future Enhancements
@@ -145,29 +142,29 @@ Contributions to this project are welcome! Follow the steps below to contribute:
 
     -   Integrate live webcam support for real-time image predictions.
 
----
 <br>
 
 🙌 Acknowledgments
 ------------------
-
 -   **💻 [Flask](https://flask.palletsprojects.com/en/2.2.x/) :** For providing a lightweight and efficient web framework.
 -   **📊 [kagglehub](https://kaggle.com/datasets) :** For facilitating easy access to datasets.
 
+<br>
 
 📜 License
 ----------
+This project is licensed under the [MIT License ↗️](https://github.com/MohammadAshmir786/Cat_vs_Dog_Image_Classification_App/blob/main/LICENSE)
 
-This project is licensed under the [MIT License](https://github.com/MohammadAshmir786/Cat_vs_Dog_Image_Classification_App/blob/main/LICENSE)
+<br>
 
 📒 Contact
 ----------
-
 If you have any questions or feedback, please feel free to [contact me ↗️](mailto:moashmir7003@gmail.com).
 
----
+<br>
 
-
-### 🎉 Experience the **99.99%** accuracy and bring the power of deep learning 🧠 to your fingertips!
+<h3 align="center">
+   🎉 Experience the **99.99%** accuracy and bring the power of deep learning 🧠 to your fingertips! 🫵
+</h3> 
 
 
