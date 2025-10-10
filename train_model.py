@@ -122,11 +122,7 @@ def train_model(data_dir):
     history = model.fit(train_data, validation_data=val_data, epochs=epochs)
 
     # Save the trained model
-<<<<<<< HEAD
     save_model(model, "model/image_classify_model.keras")
-=======
-    save_model(model, "model/model_weights.keras")
->>>>>>> db8dc800d6016b4f63961a52d1aecc66998b3943
 
     # Optional: Plot the training and validation accuracy
     plt.plot(history.history["accuracy"], label="Training Accuracy")
