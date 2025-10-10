@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 Flask==2.3.3
 tensorflow
 numpy==1.24.3
 pillow==9.5.0
 kagglehub
 matplotlib
+=======
+Flask==2.3.3
+tensorflow==2.13.0
+numpy==1.24.3
+pillow==9.5.0
+>>>>>>> db8dc800d6016b4f63961a52d1aecc66998b3943

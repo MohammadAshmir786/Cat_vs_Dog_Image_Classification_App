@@ -1,6 +1,10 @@
 # Import necessary libraries and modules
 from flask import Flask, request, redirect, url_for, render_template
+<<<<<<< HEAD
 from tensorflow.keras.models import load_model 
+=======
+from tensorflow.keras.models import load_model
+>>>>>>> db8dc800d6016b4f63961a52d1aecc66998b3943
 import numpy as np
 from PIL import Image
 import io
