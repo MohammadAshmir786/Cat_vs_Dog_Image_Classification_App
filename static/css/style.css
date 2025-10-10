@@ -1,0 +1,95 @@
+/* Hero Section Styles */
+.hero {
+    background: url('../images/hero_bg.jpg') no-repeat center center; /* Hero background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 200px 0; /* Vertical padding for spacing */
+}
+
+.hero h1 {
+    font-size: 3rem; /* Large heading font size */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.hero p {
+    font-size: 1.25rem; /* Paragraph font size */
+    margin-bottom: 30px; /* Spacing below the paragraph */
+}
+
+/* Upload Section Styles */
+.upload-section {
+    padding: 50px 0; /* Vertical padding */
+    background: url('../images/form_bg.png') no-repeat center center; /* Background image */
+    background-size: cover; /* Ensures the image covers the section */
+}
+
+.upload-area {
+    border: 2px dashed #007bff; /* Dashed border with primary color */
+    border-radius: 10px; /* Rounded corners */
+    height: 152px; /* Fixed height for upload area */
+    padding: 30px; /* Internal spacing */
+    text-align: center; /* Center align text */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions on hover or drag */
+    position: relative; /* Enables relative positioning */
+}
+
+/* Drag-and-Drop Effects */
+.upload-area.dragover {
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background when dragging */
+    border-color: #0056b3; /* Darker border color */
+}
+
+.upload-area:hover {
+    background-color: rgba(0, 123, 255, 0.05); /* Light background on hover */
+    border-color: #0056b3; /* Border color change on hover */
+}
+
+/* Clickable Upload Text */
+#clickToUpload {
+    text-decoration: underline; /* Underline text to indicate interactivity */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Uploaded Image Styles */
+#uploadedImage {
+    object-fit: cover; /* Ensure image fits its container */
+}
+
+/* Glow Text Effect */
+.glow {
+    text-shadow: 0 0 20px rgba(255, 51, 0, 0.8); /* Glowing text effect */
+    transition: text-shadow 0.3s; /* Smooth transition for the glow effect */
+}
+
+/* Error Animation Effect */
+.error-effect {
+    animation: shake 0.8s ease forwards; /* Shake animation for error feedback */
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); } /* Initial position */
+    25% { transform: translateX(-5px); } /* Move left */
+    50% { transform: translateX(5px); } /* Move right */
+    75% { transform: translateX(-5px); } /* Move left again */
+    100% { transform: translateX(0); } /* Return to original position */
+}
+
+/* Results Section Styles */
+.results-section {
+    padding: 50px 0; /* Vertical padding for spacing */
+}
+
+/* Footer Styles */
+.footer {
+    background: #333; /* Dark background color */
+    color: white; /* White text color */
+    padding: 20px 0; /* Vertical padding */
+    text-align: center; /* Center align text */
+}
+
+/* Footer Links */
+.footer a {
+    color: white; /* Link color */
+    margin: 0 10px; /* Horizontal spacing between links */
+}
